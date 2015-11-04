@@ -35,6 +35,8 @@ namespace Maatwerk_Toets
         public List<IInkomsten> Overzicht(DateTime van, DateTime tot)
         {
             return null;
+            //Ik ben op dit punt van de toets gestopt, omdat ik niet wist hoe ik verder moest werken.
+            //De overige opdrachten begrijp ik gewoon niet goed genoeg, maar ik heb nu wel een duidelijk beeld wat mijn ontwikkelpunten zijn.
         }
     }
 }
