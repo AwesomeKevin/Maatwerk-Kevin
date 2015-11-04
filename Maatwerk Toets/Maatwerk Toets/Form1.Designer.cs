@@ -240,6 +240,7 @@
             this.btnNieuweVerkoopToevoegen.TabIndex = 7;
             this.btnNieuweVerkoopToevoegen.Text = "Toevoegen";
             this.btnNieuweVerkoopToevoegen.UseVisualStyleBackColor = true;
+            this.btnNieuweVerkoopToevoegen.Click += new System.EventHandler(this.btnNieuweVerkoopToevoegen_Click);
             // 
             // label4
             // 

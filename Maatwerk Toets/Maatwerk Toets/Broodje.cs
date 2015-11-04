@@ -21,7 +21,7 @@ namespace Maatwerk_Toets
         //Methodes
         public override string ToString()
         {
-            return BTWTarief.ToString() + ", " + Prijs.ToString();
+            return "Broodje" + ", " + Aantal.ToString();
         }
     }
 }

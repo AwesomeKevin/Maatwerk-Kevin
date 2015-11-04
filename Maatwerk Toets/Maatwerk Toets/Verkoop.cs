@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace Maatwerk_Toets
 {
     public abstract class Verkoop : Inkomsten
-    //Ik heb het woord abstract weggelaten omdat ik niet wist hoe ik anders een nieuwe verkoop moest aanmaken.
     {
         //Properties
         public int Aantal { get; set; }

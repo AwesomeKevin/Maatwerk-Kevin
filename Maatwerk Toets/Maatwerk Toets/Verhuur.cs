@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Maatwerk_Toets
 {
-    public class Verhuur : Inkomsten
-        //Ik heb het woord abstract weggelaten omdat ik niet wist hoe ik anders een nieuwe verhuring moest aanmaken.
+    public abstract class Verhuur : Inkomsten
     {
         //Properties
         public int UrenVerhuurd { get; set; }

@@ -21,7 +21,7 @@ namespace Maatwerk_Toets
         //Methodes
         public override string ToString()
         {
-            return "Feestzaal" + PrijsPerUur.ToString();
+            return "Feestzaal" + ", " + Tijdstip.ToString() + ", " + UrenVerhuurd.ToString();
         }
     }
 }
