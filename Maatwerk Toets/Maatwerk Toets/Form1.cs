@@ -71,5 +71,15 @@ namespace Maatwerk_Toets
 
             VerversScherm();
         }
+
+        private void btnOverzichtDatumbereik_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOverzichtExporteer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

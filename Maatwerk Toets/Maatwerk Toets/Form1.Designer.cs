@@ -317,6 +317,7 @@
             this.btnOverzichtExporteer.TabIndex = 13;
             this.btnOverzichtExporteer.Text = "Exporteer";
             this.btnOverzichtExporteer.UseVisualStyleBackColor = true;
+            this.btnOverzichtExporteer.Click += new System.EventHandler(this.btnOverzichtExporteer_Click);
             // 
             // btnOverzichtDatumbereik
             // 
@@ -327,6 +328,7 @@
             this.btnOverzichtDatumbereik.TabIndex = 11;
             this.btnOverzichtDatumbereik.Text = "Toon overzicht voor datumbereik";
             this.btnOverzichtDatumbereik.UseVisualStyleBackColor = true;
+            this.btnOverzichtDatumbereik.Click += new System.EventHandler(this.btnOverzichtDatumbereik_Click);
             // 
             // label7
             // 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Maatwerk_Toets
 {
-    public interface Inkomsten
+    public interface IInkomsten
     {
         //Properties
         decimal Bedrag { get; set; }

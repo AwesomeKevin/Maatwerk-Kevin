@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Maatwerk_Toets
 {
-    public abstract class Verhuur : Inkomsten
+    public abstract class Verhuur : IInkomsten
     {
         //Properties
         public int UrenVerhuurd { get; set; }

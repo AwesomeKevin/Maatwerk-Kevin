@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Maatwerk_Toets
 {
-    public class Administratie
+    public class Administratie : IComparable<Administratie>
     {
         //Properties
         public List<Verkoop> verkopen;
@@ -30,6 +30,11 @@ namespace Maatwerk_Toets
         {
             verkopen.Add(verkoop);
             return true;
+        }
+
+        public List<IInkomsten> Overzicht(DateTime van, DateTime tot)
+        {
+            return null;
         }
     }
 }
