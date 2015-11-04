@@ -1,2 +1,10 @@
 c:\users\kevin\documents\visual studio 2013\Projects\Maatwerk Toets\Maatwerk Toets\bin\Debug\Maatwerk Toets.exe.config
 C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\bin\Debug\Maatwerk Toets.exe.config
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk Toets.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk_Toets.Form1.resources
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk_Toets.Properties.Resources.resources
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk Toets.csproj.GenerateResource.Cache
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\bin\Debug\Maatwerk Toets.exe
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\bin\Debug\Maatwerk Toets.pdb
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk Toets.exe
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk Toets.pdb

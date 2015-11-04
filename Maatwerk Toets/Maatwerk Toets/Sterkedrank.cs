@@ -9,17 +9,17 @@ namespace Maatwerk_Toets
     public class Sterkedrank : Verkoop
     {
         //Properties
-        public BTWTarief BTWTarief { get; }
-        public decimal Prijs { get; }
+        public override BTWTarief BTWTarief { get; set; }
+        public override decimal Prijs { get; set; }
 
         //Constructor
         public Sterkedrank(int aantal) : base(aantal)
         {
-            BTWTarief.IsHoog = true;
+            
         }
 
         //Methodes
-        public string ToString()
+        public override string ToString()
         {
             return BTWTarief.ToString() + ", " + Prijs.ToString();
         }

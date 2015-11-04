@@ -9,17 +9,17 @@ namespace Maatwerk_Toets
     public class Vergaderruimte : Verhuur
     {
         //Properties
-        public BTWTarief BTWTarief { get; }
-        public decimal PrijsPerUur { get; }
+        public override BTWTarief BTWTarief { get; set; }
+        public override decimal PrijsPerUur { get; set; }
 
         //Constructor
         public Vergaderruimte(DateTime tijdstip, int urenVerhuurd) : base(tijdstip, urenVerhuurd)
         {
-            BTWTarief.IsHoog = false;
+            
         }
 
         //Methodes
-        public string ToString()
+        public override string ToString()
         {
             return BTWTarief.ToString() + ", " + PrijsPerUur.ToString();
         }

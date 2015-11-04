@@ -9,19 +9,19 @@ namespace Maatwerk_Toets
     public class Feestzaal : Verhuur
     {
         //Properties
-        public BTWTarief BTWTarief { get; }
-        public decimal PrijsPerUur { get; }
+        public override BTWTarief BTWTarief { get; set; }
+        public override decimal PrijsPerUur { get; set; }
 
         //Constructor
         public Feestzaal(DateTime tijdstip, int urenVerhuurd) : base(tijdstip, urenVerhuurd)
         {
-            BTWTarief.IsHoog = true;
+            PrijsPerUur = 25;
         }
 
         //Methodes
-        public string ToString()
+        public override string ToString()
         {
-            return BTWTarief.ToString() + ", " + PrijsPerUur.ToString();
+            return "Feestzaal" + PrijsPerUur.ToString();
         }
     }
 }

@@ -9,17 +9,17 @@ namespace Maatwerk_Toets
     public class Broodje : Verkoop
     {
         //Properties
-        public BTWTarief BTWTarief { get; }
-        public decimal Prijs { get; }
+        public override BTWTarief BTWTarief { get; set; }
+        public override decimal Prijs { get; set; }
 
         //Constructor
         public Broodje(int aantal) : base(aantal)
         {
-            BTWTarief.IsHoog = false;
+            
         }
 
         //Methodes
-        public string ToString()
+        public override string ToString()
         {
             return BTWTarief.ToString() + ", " + Prijs.ToString();
         }

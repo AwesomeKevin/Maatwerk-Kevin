@@ -9,8 +9,8 @@ namespace Maatwerk_Toets
     public interface Inkomsten
     {
         //Properties
-        public decimal Bedrag { get; }
-        public BTWTarief BTWTarief { get; }
-        public DateTime Tijdstip { get; }
+        decimal Bedrag { get; set; }
+        BTWTarief BTWTarief { get; set; }
+        DateTime Tijdstip { get; set; }
     }
 }

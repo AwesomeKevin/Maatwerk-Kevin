@@ -10,24 +10,26 @@ namespace Maatwerk_Toets
     {
         //Properties
         public List<Verkoop> verkopen;
-        public List<Verhuur> verhuren;
+        public List<Verhuur> verhuringen;
 
         //Constructor
         public Administratie()
         {
             verkopen = new List<Verkoop>();
-            verhuren = new List<Verhuur>();
+            verhuringen = new List<Verhuur>();
         }
 
         //Methodes
-        public void VoegToe(Verhuur verhuur)
+        public bool VoegToe(Verhuur verhuur)
         {
-
+            verhuringen.Add(verhuur);
+            return true;
         }
 
-        public void VoegToe(Verkoop verkoop)
+        public bool VoegToe(Verkoop verkoop)
         {
-
+            verkopen.Add(verkoop);
+            return true;
         }
     }
 }

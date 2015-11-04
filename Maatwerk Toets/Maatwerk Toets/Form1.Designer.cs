@@ -1,4 +1,4 @@
-﻿namespace _2015_NJ_SE2_BP3_Beginsituatie
+﻿namespace Maatwerk_Toets
 {
     partial class Form1
     {
@@ -112,6 +112,7 @@
             this.btnNieuweVerhuringToevoegen.TabIndex = 3;
             this.btnNieuweVerhuringToevoegen.Text = "Toevoegen";
             this.btnNieuweVerhuringToevoegen.UseVisualStyleBackColor = true;
+            this.btnNieuweVerhuringToevoegen.Click += new System.EventHandler(this.btnNieuweVerhuringToevoegen_Click);
             // 
             // label1
             // 
