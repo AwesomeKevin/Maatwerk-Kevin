@@ -9,9 +9,9 @@ namespace Maatwerk_Toets
     public abstract class Verkoop : IInkomsten
     {
         //Properties
-        public int Aantal { get; set; }
+        public int Aantal { get; protected set; }
         public decimal Bedrag { get; set; }
-        public DateTime Tijdstip { get; set; }
+        public DateTime Tijdstip { get; protected set; }
         public abstract BTWTarief BTWTarief { get; set; }
         public abstract decimal Prijs { get; set; }
 

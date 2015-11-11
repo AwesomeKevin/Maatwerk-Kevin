@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 
 namespace Maatwerk_Toets
 {
-    public class BTWTarief
+    public enum BTWTarief
     {
-        //Properties
-        public bool IsHoog { get; set; }
-
-        //Constructor
-        public BTWTarief(bool isHoog)
-        {
-            IsHoog = isHoog;
-        }
+        Ongespecificeerd,
+        Laag,
+        Hoog
     }
 }

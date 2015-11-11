@@ -9,11 +9,12 @@ namespace Maatwerk_Toets
     public class Sportzaal : Verhuur
     {
         //Properties
-        public override BTWTarief BTWTarief { get; set; }
-        public override decimal PrijsPerUur { get; set; }
+        public override BTWTarief BTWTarief { get; protected set; }
+        public override decimal PrijsPerUur { get; protected set; }
 
         //Constructor
-        public Sportzaal(DateTime tijdstip, int urenVerhuurd) : base(tijdstip, urenVerhuurd)
+        public Sportzaal(DateTime tijdstip, int urenVerhuurd)
+            : base(tijdstip, urenVerhuurd)
         {
             
         }
@@ -21,7 +22,7 @@ namespace Maatwerk_Toets
         //Methodes
         public override string ToString()
         {
-            return "Sportzaal" + ", " + Tijdstip.ToString() + ", " + UrenVerhuurd.ToString();
+            return "Sportzaal - " + base.ToString();
         }
     }
 }

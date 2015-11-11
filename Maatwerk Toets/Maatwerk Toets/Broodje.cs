@@ -9,11 +9,12 @@ namespace Maatwerk_Toets
     public class Broodje : Verkoop
     {
         //Properties
-        public override BTWTarief BTWTarief { get; set; }
-        public override decimal Prijs { get; set; }
+        public override BTWTarief BTWTarief { get; protected set; }
+        public override decimal Prijs { get; protected set; }
 
         //Constructor
-        public Broodje(int aantal) : base(aantal)
+        public Broodje(int aantal)
+            : base(aantal)
         {
             
         }
@@ -21,7 +22,7 @@ namespace Maatwerk_Toets
         //Methodes
         public override string ToString()
         {
-            return "Broodje" + ", " + Aantal.ToString();
+            return "Broodje - " + base.ToString();
         }
     }
 }

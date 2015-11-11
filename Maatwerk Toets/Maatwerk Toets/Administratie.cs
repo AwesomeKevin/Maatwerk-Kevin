@@ -9,34 +9,54 @@ namespace Maatwerk_Toets
     public class Administratie : IComparable<Administratie>
     {
         //Properties
-        public List<Verkoop> verkopen;
-        public List<Verhuur> verhuringen;
+        public List<Verkoop> Verkopen { get; private set; }
+        public List<Verhuur> Verhuringen { get; private set; }
 
         //Constructor
         public Administratie()
         {
-            verkopen = new List<Verkoop>();
-            verhuringen = new List<Verhuur>();
+            Verkopen = new List<Verkoop>();
+            Verhuringen = new List<Verhuur>();
         }
 
         //Methodes
         public bool VoegToe(Verhuur verhuur)
         {
-            verhuringen.Add(verhuur);
+            Verhuringen.Add(verhuur);
             return true;
         }
 
         public bool VoegToe(Verkoop verkoop)
         {
-            verkopen.Add(verkoop);
+            Verkopen.Add(verkoop);
             return true;
         }
 
         public List<IInkomsten> Overzicht(DateTime van, DateTime tot)
         {
+            List<IInkomsten> overzicht = new List<IInkomsten>();
+            foreach (Verkoop a in Verkopen)
+            {
+                if (a.Tijdstip > van && a.Tijdstip < tot)
+                {
+                    overzicht.Add((IInkomsten)a);
+                }
+            }
+            foreach (Verhuur a in Verhuringen)
+            {
+                if (a.Tijdstip > van && a.Tijdstip < tot)
+                {
+                    overzicht.Add((IInkomsten)a);
+                }
+            }
+
+            overzicht.Sort();
             return null;
-            //Ik ben op dit punt van de toets gestopt, omdat ik niet wist hoe ik verder moest werken.
-            //De overige opdrachten begrijp ik gewoon niet goed genoeg, maar ik heb nu wel een duidelijk beeld wat mijn ontwikkelpunten zijn.
+        }
+
+        public List<IInkomsten> Overzicht(BTWTarief tarief)
+        {
+            return null;
         }
     }
 }

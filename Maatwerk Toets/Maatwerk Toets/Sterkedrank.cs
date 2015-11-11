@@ -9,11 +9,12 @@ namespace Maatwerk_Toets
     public class Sterkedrank : Verkoop
     {
         //Properties
-        public override BTWTarief BTWTarief { get; set; }
-        public override decimal Prijs { get; set; }
+        public override BTWTarief BTWTarief { get; protected set; }
+        public override decimal Prijs { get; protected set; }
 
         //Constructor
-        public Sterkedrank(int aantal) : base(aantal)
+        public Sterkedrank(int aantal)
+            : base(aantal)
         {
             
         }
@@ -21,7 +22,7 @@ namespace Maatwerk_Toets
         //Methodes
         public override string ToString()
         {
-            return "Sterkedrank" + ", " + Aantal.ToString();
+            return "Sterkedrank - " + base.ToString();
         }
     }
 }
