@@ -22,12 +22,12 @@ namespace Maatwerk_Toets
         private void VerversScherm()
         {
             lbVerhuringen.Items.Clear();
-            foreach (Verhuur v in administratie.verhuringen)
+            foreach (Verhuur v in administratie.Verhuringen)
             {
                 lbVerhuringen.Items.Add(v);
             }
             lbVerkopen.Items.Clear();
-            foreach (Verkoop k in administratie.verkopen)
+            foreach (Verkoop k in administratie.Verkopen)
             {
                 lbVerkopen.Items.Add(k);
             }
@@ -74,7 +74,7 @@ namespace Maatwerk_Toets
 
         private void btnOverzichtDatumbereik_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show(string.Join(Environment.NewLine, administratie.Overzicht(dtpOverzichtVan.Value, dtpOverzichtTot.Value)));
         }
 
         private void btnOverzichtExporteer_Click(object sender, EventArgs e)

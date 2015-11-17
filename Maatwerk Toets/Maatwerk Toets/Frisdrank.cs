@@ -8,15 +8,26 @@ namespace Maatwerk_Toets
 {
     public class Frisdrank : Verkoop
     {
+        //FIelds
+        private BTWTarief btwTarief;
+        private decimal prijs;
+
         //Properties
-        public override BTWTarief BTWTarief { get; protected set; }
-        public override decimal Prijs { get; protected set; }
+        public override BTWTarief BTWTarief
+        {
+            get { return btwTarief; }
+        }
+        public override decimal Prijs
+        {
+            get { return prijs; }
+        }
 
         //Constructor
         public Frisdrank(int aantal) 
             : base(aantal)
         {
-            
+            btwTarief = BTWTarief.Hoog;
+            prijs = 6;
         }
 
         //Methodes

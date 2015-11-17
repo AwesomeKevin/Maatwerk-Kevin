@@ -8,15 +8,26 @@ namespace Maatwerk_Toets
 {
     public class Feestzaal : Verhuur
     {
+        //FIelds
+        private BTWTarief btwTarief;
+        private decimal prijsPerUur;
+
         //Properties
-        public override BTWTarief BTWTarief { get; protected set; }
-        public override decimal PrijsPerUur { get; protected set; }
+        public override BTWTarief BTWTarief
+        {
+            get { return btwTarief; }
+        }
+        public override decimal PrijsPerUur
+        {
+            get { return prijsPerUur; }
+        }
 
         //Constructor
         public Feestzaal(DateTime tijdstip, int urenVerhuurd)
             : base(tijdstip, urenVerhuurd)
         {
-            
+            btwTarief = BTWTarief.Hoog;
+            prijsPerUur = 10;
         }
 
         //Methodes

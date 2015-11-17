@@ -1,0 +1,5 @@
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Unit Test 1\bin\Debug\Unit Test 1.dll
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Unit Test 1\bin\Debug\Unit Test 1.pdb
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Unit Test 1\obj\Debug\Unit Test 1.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Unit Test 1\obj\Debug\Unit Test 1.dll
+C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Unit Test 1\obj\Debug\Unit Test 1.pdb

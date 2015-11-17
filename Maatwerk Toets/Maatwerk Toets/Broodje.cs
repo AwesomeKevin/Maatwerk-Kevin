@@ -8,15 +8,26 @@ namespace Maatwerk_Toets
 {
     public class Broodje : Verkoop
     {
+        //FIelds
+        private BTWTarief btwTarief;
+        private decimal prijs;
+
         //Properties
-        public override BTWTarief BTWTarief { get; protected set; }
-        public override decimal Prijs { get; protected set; }
+        public override BTWTarief BTWTarief
+        {
+            get { return btwTarief; }
+        }
+        public override decimal Prijs
+        {
+            get { return prijs; }
+        }
 
         //Constructor
         public Broodje(int aantal)
             : base(aantal)
         {
-            
+            btwTarief = BTWTarief.Laag;
+            prijs = 4;
         }
 
         //Methodes
