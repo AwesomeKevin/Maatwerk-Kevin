@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Maatwerk_Toets
 {
-    public abstract class Verhuur : IInkomsten
+    public abstract class Verhuur : IInkomsten, IComparable<IInkomsten>
     {
         //Fields
         private int urenVerhuurd;
@@ -17,7 +17,7 @@ namespace Maatwerk_Toets
         //Properties
         public int UrenVerhuurd
         {
-            get { return urenVerhuurd;}
+            get { return urenVerhuurd; }
         }
         public decimal Bedrag { get; set; }
         public DateTime Tijdstip
@@ -52,6 +52,21 @@ namespace Maatwerk_Toets
             if (v.tijdstip > other.Tijdstip) return 1;
             else if (v.tijdstip < other.Tijdstip) return -1;
             else return 0;
+        }
+
+
+        public override bool Equals(Object a)
+        {
+            if (a is IInkomsten)
+            {
+                Verhuur b = (Verhuur)a;
+                return this.Tijdstip.Equals(b.Tijdstip)
+    && this.PrijsPerUur.Equals(b.PrijsPerUur)
+    && this.UrenVerhuurd.Equals(b.UrenVerhuurd)
+    && this.GetType().Equals(a.GetType());
+                // return CompareTo((IInkomsten)a) == 0;
+            }
+            return false;
         }
     }
 }

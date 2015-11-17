@@ -8,3 +8,11 @@ C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\bin
 C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\bin\Debug\Maatwerk Toets.pdb
 C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk Toets.exe
 C:\Users\Kevin\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk Toets.pdb
+C:\Users\Jehama\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\bin\Debug\Maatwerk Toets.exe.config
+C:\Users\Jehama\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk Toets.exe
+C:\Users\Jehama\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk Toets.pdb
+C:\Users\Jehama\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\bin\Debug\Maatwerk Toets.exe
+C:\Users\Jehama\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\bin\Debug\Maatwerk Toets.pdb
+C:\Users\Jehama\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk_Toets.Form1.resources
+C:\Users\Jehama\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk_Toets.Properties.Resources.resources
+C:\Users\Jehama\Documents\GitHub\Maatwerk-Kevin\Maatwerk Toets\Maatwerk Toets\obj\Debug\Maatwerk Toets.csproj.GenerateResource.Cache
