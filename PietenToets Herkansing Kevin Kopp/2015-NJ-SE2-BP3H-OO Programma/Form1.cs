@@ -16,10 +16,12 @@ namespace _2015_NJ_SE2_BP3H_OO_Programma
     {
         public List<Gemeente> gemeenten = new List<Gemeente>();
         public List<Provincie> provincies;
+        Administratie admin = new Administratie();
 
         public Form1()
         {
             InitializeComponent();
+            provincies = new List<Provincie>();
 
             FileStream file;
             StreamReader reader;
@@ -34,7 +36,7 @@ namespace _2015_NJ_SE2_BP3H_OO_Programma
                 {
                     string line = reader.ReadLine();
                     fileContents = fileContents.Split(';').ToString();
-                    gemeenten.Add(gemeente);
+                    //gemeenten.Add(gemeente);
                 }
 
                 reader.Close();
@@ -46,6 +48,32 @@ namespace _2015_NJ_SE2_BP3H_OO_Programma
             {
                 MessageBox.Show("File is niet bereikbaar");
             }
+
+            Provincie provincie1 = new Provincie("Drenthe");
+            Provincie provincie2 = new Provincie("Flevoland");
+            Provincie provincie3 = new Provincie("Fiesland");
+            Provincie provincie4 = new Provincie("Gelderland");
+            Provincie provincie5 = new Provincie("Groningen");
+            Provincie provincie6 = new Provincie("Limburg");
+            Provincie provincie7 = new Provincie("Noord-Brabant");
+            Provincie provincie8 = new Provincie("Noord-Holland");
+            Provincie provincie9 = new Provincie("Overijssel");
+            Provincie provincie10 = new Provincie("Utrecht");
+            Provincie provincie11 = new Provincie("Zeeland");
+            Provincie provincie12 = new Provincie("Zuid-Holland");
+
+            lbProvincies.Items.Add(provincie1);
+            lbProvincies.Items.Add(provincie2);
+            lbProvincies.Items.Add(provincie3);
+            lbProvincies.Items.Add(provincie4);
+            lbProvincies.Items.Add(provincie5);
+            lbProvincies.Items.Add(provincie6);
+            lbProvincies.Items.Add(provincie7);
+            lbProvincies.Items.Add(provincie8);
+            lbProvincies.Items.Add(provincie9);
+            lbProvincies.Items.Add(provincie10);
+            lbProvincies.Items.Add(provincie11);
+            lbProvincies.Items.Add(provincie12);
         }
 
         private void btnToevoegen_Click(object sender, EventArgs e)
