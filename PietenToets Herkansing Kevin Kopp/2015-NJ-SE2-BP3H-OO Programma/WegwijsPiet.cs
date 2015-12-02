@@ -23,17 +23,19 @@ namespace _2015_NJ_SE2_BP3H_OO_Programma
 
         public override bool SnaptComputers
         {
-            get { snaptComputers; }
+            get { return snaptComputers; }
         }
 
         public WegwijsPiet()
         {
-
+            isCreatief = false;
+            kanRijmen = false;
+            snaptComputers = false;
         }
 
         public override string ToString()
         {
-
+            return "return";
         }
     }
 }

@@ -110,6 +110,7 @@
             this.btnToevoegen.TabIndex = 9;
             this.btnToevoegen.Text = "Toevoegen";
             this.btnToevoegen.UseVisualStyleBackColor = true;
+            this.btnToevoegen.Click += new System.EventHandler(this.btnToevoegen_Click);
             // 
             // nudAantalKinderen
             // 
@@ -291,9 +292,9 @@
             // 
             this.lbPosse.FormattingEnabled = true;
             this.lbPosse.ItemHeight = 17;
-            this.lbPosse.Location = new System.Drawing.Point(279, 380);
+            this.lbPosse.Location = new System.Drawing.Point(321, 380);
             this.lbPosse.Name = "lbPosse";
-            this.lbPosse.Size = new System.Drawing.Size(482, 123);
+            this.lbPosse.Size = new System.Drawing.Size(440, 123);
             this.lbPosse.TabIndex = 9;
             // 
             // chkGedicht

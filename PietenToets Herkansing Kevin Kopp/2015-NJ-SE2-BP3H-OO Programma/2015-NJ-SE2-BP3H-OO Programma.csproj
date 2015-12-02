@@ -57,7 +57,7 @@
     </Compile>
     <Compile Include="Gemeente.cs" />
     <Compile Include="KlimPiet.cs" />
-    <Compile Include="KookPiet.cs" />
+    <Compile Include="GooiPiet.cs" />
     <Compile Include="OngeldigePietException.cs" />
     <Compile Include="PakjesPiet.cs" />
     <Compile Include="Piet.cs" />

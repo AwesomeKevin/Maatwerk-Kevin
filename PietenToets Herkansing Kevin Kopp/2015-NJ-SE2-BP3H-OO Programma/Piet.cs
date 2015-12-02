@@ -13,17 +13,17 @@ namespace _2015_NJ_SE2_BP3H_OO_Programma
 
         public abstract bool IsCreatief
         {
-            get { return isCreatief; }
+            get;
         }
 
         public abstract bool KanRijmen
         {
-            get { return kanRijmen; }
+            get;
         }
 
         public abstract bool SnaptComputers
         {
-            get { return snaptComputers; }
+            get;
         }
 
         public Piet()

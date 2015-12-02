@@ -28,7 +28,9 @@ namespace _2015_NJ_SE2_BP3H_OO_Programma
 
         public PakjesPiet()
         {
-
+            isCreatief = false;
+            kanRijmen = true;
+            snaptComputers = false;
         }
 
         public override string ToString()

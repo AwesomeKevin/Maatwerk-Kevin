@@ -28,7 +28,9 @@ namespace _2015_NJ_SE2_BP3H_OO_Programma
 
         public KlimPiet()
         {
-
+            isCreatief = false;
+            kanRijmen = false;
+            snaptComputers = true;
         }
 
         public override string ToString()

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _2015_NJ_SE2_BP3H_OO_Programma
 {
-    public class KookPiet : Piet
+    public class GooiPiet : Piet
     {
         private bool isCreatief;
         private bool kanRijmen;
@@ -26,9 +26,11 @@ namespace _2015_NJ_SE2_BP3H_OO_Programma
             get { return snaptComputers; }
         }
 
-        public KookPiet()
+        public GooiPiet()
         {
-
+            isCreatief = true;
+            kanRijmen = false;
+            snaptComputers = false;
         }
 
         public override string ToString()

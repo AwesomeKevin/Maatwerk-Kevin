@@ -21,12 +21,14 @@ namespace _2015_NJ_SE2_BP3H_OO_Programma
 
         public int AfstandTot(Gemeente gemeente)
         {
-            return 0;
+            double x = this.X - gemeente.X;
+            double y = this.Y - gemeente.Y;
+            return Convert.ToInt32(Math.Sqrt(x * x + y * y));
         }
 
         public override string ToString()
         {
-            return "return";
+            return Naam.ToString() + " - " + AantalKinderen.ToString() + " - " + X.ToString() + " - " + Y.ToString();
         }
     }
 }
