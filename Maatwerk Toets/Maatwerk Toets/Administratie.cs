@@ -91,5 +91,10 @@ namespace Maatwerk_Toets
             overzicht.Sort();
             return overzicht;
         }
+
+        public void Exporteer(string path, BTWTarief tarief)
+        {
+
+        }
     }
 }
