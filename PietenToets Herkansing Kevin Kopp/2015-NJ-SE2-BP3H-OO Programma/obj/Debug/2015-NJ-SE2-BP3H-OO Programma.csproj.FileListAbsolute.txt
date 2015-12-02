@@ -1,0 +1,2 @@
+C:\Users\Kevin\Desktop\2015-NJ-SE2-BP3H-Toets\2015-NJ-SE2-BP3H-Beginsituatie\2015-NJ-SE2-BP3H-OO Programma\bin\Debug\2015-NJ-SE2-BP3H-OO Programma.exe.config
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Maatwerk\2015-NJ-SE2-BP3H-Beginsituatie\2015-NJ-SE2-BP3H-OO Programma\bin\Debug\2015-NJ-SE2-BP3H-OO Programma.exe.config
